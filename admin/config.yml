@@ -1,0 +1,32 @@
+﻿backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/img/uploads"
+public_folder: "/assets/img/uploads"
+
+collections:
+  - name: "products"
+    label: "Products"
+    folder: "data/products"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "ID", name: "id", widget: "string", hint: "Unique short code (e.g. c001)" }
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Price (USD)", name: "price", widget: "number", value_type: "int" }
+      - { label: "Type", name: "type", widget: "select", options: ["spice","capsule"] }
+      - { label: "Condition", name: "condition", widget: "list", hint: "e.g. Joint Health, Digestion" }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Alt text", name: "alt", widget: "string" }
+      - { label: "Description", name: "description", widget: "markdown" }
+      - label: "Supplement Facts"
+        name: "supplementFacts"
+        widget: "object"
+        required: false
+        fields:
+          - { label: "Serving Size", name: "servingSize", widget: "string" }
+          - { label: "Servings Per Container", name: "servingsPerContainer", widget: "string" }
+          - { label: "Curcumin (mg)", name: "curcumin", widget: "string", required: false }
+          - { label: "Bioavailability", name: "bioavailability", widget: "string", required: false }

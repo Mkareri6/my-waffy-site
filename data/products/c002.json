@@ -1,0 +1,15 @@
+﻿{
+  "id": "c002",
+  "name": "Ashwagandha Capsules – 90 pcs",
+  "price": 429,
+  "type": "capsule",
+  "condition": ["Stress Relief","Sleep"],
+  "tags": ["ashwagandha","adaptogen"],
+  "image": "assets/img/uploads/ashwagandha-capsule.webp",
+  "alt": "Bottle of 90 ashwagandha capsules on a wooden table",
+  "description": "Organic ashwagandha root extract in vegan capsules. Helps the body adapt to stress and improve sleep quality.",
+  "supplementFacts": {
+    "servingSize": "1 capsule",
+    "servingsPerContainer": "90"
+  }
+}

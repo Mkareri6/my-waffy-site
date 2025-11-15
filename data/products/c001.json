@@ -1,0 +1,17 @@
+﻿{
+  "id": "c001",
+  "name": "Turmeric Capsules – 60 pcs",
+  "price": 349,
+  "type": "capsule",
+  "condition": ["Joint Health","Inflammation"],
+  "tags": ["turmeric","anti‑inflammatory"],
+  "image": "assets/img/uploads/turmeric-capsule.webp",
+  "alt": "Bottle of 60 turmeric capsules, orange powder spilling out",
+  "description": "Premium organic turmeric powder in easy‑to‑swallow capsules. Supports healthy inflammation response.",
+  "supplementFacts": {
+    "servingSize": "1 capsule",
+    "servingsPerContainer": "60",
+    "curcumin": "500 mg",
+    "bioavailability": "95 % with black‑pepper extract"
+  }
+}

@@ -1,0 +1,57 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Waffy – Herbs & Spices Store</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header id="site-header">
+    <div class="logo">Waffy</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="condition-filter.html">Capsules by Condition</a>
+      <a href="product-detail.html">Shop</a>
+      <a href="/admin">Admin</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="content">
+      <h1>Pure Herbs & Spices</h1>
+      <p>Organic, hand‑picked, and now also in capsule form.</p>
+      <a href="condition-filter.html" class="cta">Explore Capsules</a>
+    </div>
+  </section>
+
+  <div class="promo-ribbons" style="background:#fff;padding:1rem;text-align:center;">
+    <div style="margin:.5rem;">
+      <strong>Herbs & Spices – Flat 10 % Off</strong> – use coupon: <code>spi18</code>
+    </div>
+    <div style="margin:.5rem;">
+      <strong>The choice of chefs – 15 % off</strong> – use coupon: <code>spi18</code>
+    </div>
+    <div style="margin:.5rem;">
+      <strong>All Organic Spices – 20 % off</strong> – use coupon: <code>spi18</code>
+    </div>
+  </div>
+
+  <h2 style="text-align:center;margin-top:2rem;">Best Products</h2>
+  <div id="product-grid" class="grid"></div>
+
+  <footer>
+    <p>© 2025 Waffy – Premium Herbs & Spices</p>
+    <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script>
+    // sticky‑header colour change
+    window.addEventListener('scroll', () => {
+      const hdr = document.getElementById('site-header');
+      hdr.classList.toggle('solid', window.scrollY > 50);
+    });
+  </script>
+</body>
+</html>

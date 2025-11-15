@@ -1,0 +1,36 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Product Detail</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header id="site-header">
+    <div class="logo">Waffy</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="condition-filter.html">Capsules</a>
+      <a href="product-detail.html">Shop</a>
+      <a href="/admin">Admin</a>
+    </nav>
+  </header>
+
+  <main style="padding:2rem;">
+    <h2>Product Detail Page</h2>
+    <p>This page is a placeholder. You can extend it to read a query‑string id and render a single product from <code>window.allProducts</code> if you wish.</p>
+  </main>
+
+  <footer>
+    <p>© 2025 Waffy – Premium Herbs & Spices</p>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script>
+    window.addEventListener('scroll', () => {
+      const hdr = document.getElementById('site-header');
+      hdr.classList.toggle('solid', window.scrollY > 50);
+    });
+  </script>
+</body>
+</html>
