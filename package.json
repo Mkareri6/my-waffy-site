@@ -1,0 +1,10 @@
+﻿{
+  "name": "waffy-demo-static",
+  "version": "1.0.0",
+  "description": "Static replica of the Waffy Shopify demo with Netlify CMS",
+  "scripts": {
+    "build": "node generate-index.js"
+  },
+  "author": "Moses Muriithi",
+  "license": "MIT"
+}
